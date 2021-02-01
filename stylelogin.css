@@ -1,0 +1,114 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+body {
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 740px;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 350px;
+	height: 400px;
+	background: #808080;
+	color: #fff;
+	top: 50%;
+	left: 50%; 
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% -50px);
+}
+h1 {
+	margin: 0;
+	padding: 0 0 px;
+	text-align: center;
+	font-size: 40px;
+	color: #87CEEB;
+	font-family: monospace;
+
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #87CEEB	;
+	font-family: monospace;
+	font-size: 20px;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+}
+.loginbox input[name="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background :#000080	;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ffc107;
+	color:#000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px
+	color: #4169E1;
+
+}
+.loginbox a:hover {
+	color: #000080	;
+}
+
+
+section.not-found .code {
+  font-size: 12em;
+  text-align: center;
+  font-weight: 700;
+  color: #999;
+  position: relative;
+  display: inline-block;
+}
+
+section.not-found h1 {
+  font-size: 24px;
+  line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+section.not-found p.lead {
+  font-size: 16px;
+  font: monospace;
+  color: #87CEEB;
+  line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+
+}
+section.not-found .link {
+  padding: 160px 0;
+}
